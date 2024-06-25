@@ -23,16 +23,3 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc-trojan
     udp: true
-  - name: KMSPS3
-    server: id-trojan-vvip-16.topvpn.my.id
-    port: 443
-    type: trojan
-    password: 9bcff0bd-d29d-453d-9bab-fa7f6f9c570d
-    skip-cert-verify: true
-    sni: z-p15.www.instagram.com
-    network: ws
-    ws-opts:
-      path: /websocket-trojan
-      headers:
-        Host: id-trojan-vvip-16.topvpn.my.id
-    udp: true
