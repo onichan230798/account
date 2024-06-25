@@ -1,1 +1,38 @@
-
+proxies:
+  - name: AKUN 1
+    server: nusa.inject.my.id
+    port: 443
+    type: trojan
+    password: 725a3822-9756-40a7-abbc-5db13b3a1a09
+    skip-cert-verify: true
+    sni: api.instagram.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: nusa.inject.my.id
+    udp: true
+  - name: KMSP2
+    server: id-trojan-vvip-13.topvpn.my.id
+    port: 443
+    type: trojan
+    password: cdac0675-aed2-4414-9fc8-d0f0cd43cd30
+    skip-cert-verify: true
+    sni: live.iflix.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc-trojan
+    udp: true
+  - name: KMSPS3
+    server: id-trojan-vvip-16.topvpn.my.id
+    port: 443
+    type: trojan
+    password: 9bcff0bd-d29d-453d-9bab-fa7f6f9c570d
+    skip-cert-verify: true
+    sni: z-p15.www.instagram.com
+    network: ws
+    ws-opts:
+      path: /websocket-trojan
+      headers:
+        Host: id-trojan-vvip-16.topvpn.my.id
+    udp: true
