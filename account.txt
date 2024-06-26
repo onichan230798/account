@@ -1,25 +1,151 @@
 proxies:
-  - name: AKUN 1
-    server: nusa.inject.my.id
+  - name: ID GOOGLE
+    server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: 725a3822-9756-40a7-abbc-5db13b3a1a09
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: api.instagram.com
+    servername: ava.game.naver.com.indo.mysant.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vlessws
       headers:
-        Host: nusa.inject.my.id
+        Host: ava.game.naver.com.indo.mysant.my.id
     udp: true
-  - name: KMSP2
-    server: id-trojan-vvip-13.topvpn.my.id
+  - name: amazon 1
+    server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: cdac0675-aed2-4414-9fc8-d0f0cd43cd30
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: live.iflix.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc-trojan
+    servername: ava.game.naver.com.amazon1.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.amazon1.mysant.my.id
+    udp: true
+  - name: amazon2
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.amazon2.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.amazon2.mysant.my.id
+    udp: true
+  - name: alibaba
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.alibaba.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.alibaba.mysant.my.id
+    udp: true
+  - name: sg ovh
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.ovh.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.ovh.mysant.my.id
+    udp: trueproxies:
+  - name: ID GOOGLE
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.indo.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.indo.mysant.my.id
+    udp: true
+  - name: amazon 1
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.amazon1.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.amazon1.mysant.my.id
+    udp: true
+  - name: amazon2
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.amazon2.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.amazon2.mysant.my.id
+    udp: true
+  - name: alibaba
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.alibaba.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.alibaba.mysant.my.id
+    udp: true
+  - name: sg ovh
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: da4d01fb-192c-412f-9ed5-ee5c246020b6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.ovh.mysant.my.id
+    network: ws
+    ws-opts:
+      path: /vlessws
+      headers:
+        Host: ava.game.naver.com.ovh.mysant.my.id
     udp: true
